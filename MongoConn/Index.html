@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <form action="submit.html" method="post">
+        <input type="text" name="name">
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+<script>
+    localStorage.setItem("Vishal", "Americas");
+    document.write(localStorage.getItem("Vishal"));
+    window.addEventListener("resize", function()
+{
+    alert("Do not do in");
+})
+    function temp() {
+        document.getElementById("demo").remove();
+        }
+        function submitted() {
+            document.getElementById("name1").style.color = "red";
+            document.getElementById("name1").style.background = "blue";
+
+                //console.log("1dlkf");
+        }
+        submitted();
+    console.log(document.getElementsByTagName("p").length);
+        </script>
+</html>
